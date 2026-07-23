@@ -8,3 +8,8 @@ function findlargest(a, b, c){
     return Math.max(a, b, c);
 }
 console.log(findlargest(20, 30, 18));
+
+function reverseString(text){
+    returntext.split(""). reverse().join("");
+}
+console.log(reverseString("Hello"));
