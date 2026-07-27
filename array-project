@@ -1,0 +1,8 @@
+const fellows = [
+{ name: "Willet" , role: "Designer" , points: 95 },
+{ name: "Kelsy" , role: "Accountant" , points: 75 },
+{ name: "Favour" , role: "Manager" , points: 90 },
+];
+fellows.forEach(fellow => {
+    console.log(`${fellow.name} is a ${fellow.role} with ${fellow.points} points. `);
+});
